@@ -1,9 +1,9 @@
 use anchor_lang::prelude::*;
 
-declare_id!("BtSZDMEWUNjHi38dqbxf1qxBahf4vtUn8HurZxSE85px");
+declare_id!("2dZrwYmANJtCn9cKWTetA6SgNAV8nLwjGukLRcxHez6u");
 
 #[program]
-pub mod pdas {
+pub mod solana_pd_as {
     use super::*;
 
     pub fn create_ledger(ctx: Context<CreateLedger>, color: String) -> Result<()> {
