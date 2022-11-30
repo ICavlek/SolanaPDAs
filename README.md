@@ -15,6 +15,14 @@ Rerun:
 anchor build && anchor deploy
 ```
 
+### Starting localnet
+
+In separate terminal, start following command to start local Solana network:
+
+```shell
+solana-test-validator
+```
+
 ### Running
 
 ```shell
